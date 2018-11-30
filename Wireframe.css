@@ -1,31 +1,93 @@
 
 Body {
     Background: grey;
-    font-size: '18px'
+    font-size: '18px';
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .Content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+max-width: 960px;
+margin: auto;
+padding: 10px;   
+
 }
 
 .Header {
 background: white;
 color: grey;
-font-family: 'Times New Roman', Times, serif;
-width: 960px;
 text-align: center;
-height: 80px;
+padding: 20px;
+
 }
 
 .nav {
     background: white;
     color: grey;
-    font-family: 'Times New Roman', Times, serif;
-    width: 960px;
     text-align: center;
-    margin-top: 20px;
-    height: 80px;
+    padding: 20px;
+    margin-top: 9px;
+}
+
+.aside-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 0 auto;
     
+}
+
+.aside {
+    background: white;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    height: 248px;
+}
+
+.aside:nth-child(1) {
+    background: lavender; 
+    flex-basis: 55%;
+}
+
+.aside:nth-child(2) {
+    margin-right: 0;
+    flex-basis: 43%;
+}
+
+.article {
+    background: grey;
+    height: 165px;
+    color: white;
+}
+
+.article-text {
+    padding-top: 15px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background: white;
+    color: grey;
+    padding: 0 10 5 10;
+    margin: 0 17 0 17;
+}
+
+.paragraph:nth-child(2) {
+    height: 40px;
+    background: white;
+    padding: 0 10 5 10;
+    margin: 0 17 5 17;
+}
+
+.Footer {
+    background: white;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    margin-top: 9px;
 }
